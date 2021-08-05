@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Gas All</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        .table {
+            margin: auto;
+            width: 50% !important; 
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1 class="text-center">Gas All</h1>
+
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Network</th>
+                    <th scope="col">Safe</th>
+                    <th scope="col">Standard</th>
+                    <th scope="col">Fast</th>
+                    <th scope="col">Fastest</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Ethereum (Etherscan)</th>
+                    <td id="ethereumSafeLow" class="col">0</td>
+                    <td id="ethereumStandard" class="col">0</td>
+                    <td id="ethereumFast" class="col">0</td>
+                    <td id="ethereumFastest" class="col">0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Ethereum2 (Gas Station)</th>
+                    <td id="ethereum2SafeLow" class="col">0</td>
+                    <td id="ethereum2Standard" class="col">0</td>
+                    <td id="ethereum2Fast" class="col">0</td>
+                    <td id="ethereum2Fastest" class="col">0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Polygon</th>
+                    <td id="polygonSafeLow" class="col">0</td>
+                    <td id="polygonStandard" class="col">0</td>
+                    <td id="polygonFast" class="col">0</td>
+                    <td id="polygonFastest" class="col">0</td>
+                </tr>
+                <tr>
+                    <th scope="row">BSC</th>
+                    <td id="bscSafeLow" class="col">0</td>
+                    <td id="bscStandard" class="col">0</td>
+                    <td id="bscFast" class="col">0</td>
+                    <td id="bscFastest" class="col">0</td>
+                </tr>
+                <tr>
+                    <th scope="row">xDai</th>
+                    <td id="xdaiSafeLow" class="col">0</td>
+                    <td id="xdaiStandard" class="col">0</td>
+                    <td id="xdaiFast" class="col">0</td>
+                    <td id="xdaiFastest" class="col">0</td>
+                </tr>
+            </tbody>
+          </table>
+    </section>
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
